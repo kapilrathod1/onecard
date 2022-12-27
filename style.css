@@ -81,6 +81,11 @@ nav div svg {
     width: 250px;
     margin-top: 50px;
     border-radius: 15px;
+    transition: all ease-in-out 0.3s;
+}
+.first-container .text-section button:hover{
+    background-color:#00b3ff;
+    border: 1px solid white;
 }
 
 .first-container .img-section img {
@@ -139,8 +144,13 @@ nav div svg {
     border: none;
     width: 250px;
     border-radius: 15px;
-
+transition: all ease-in-out 0.3s;
 }
+.fixed-name button:hover{
+    background-color:#00b3ff;
+    border: 1px solid white;
+}
+
 
 .fixed-name span {
     display: flex;
